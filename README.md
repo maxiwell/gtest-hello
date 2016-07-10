@@ -1,9 +1,15 @@
 Hello world with Google Test
 =============================
 
-Before execute this project, you must download and compile 
+Before executing this project, you must download and compile 
 the GoogleTest project: https://github.com/google/googletest
 
+```bash
+git clone https://github.com/google/googletest.git
+cd googletest/
+cmake CMakeCache.txt
+make
+```
 
 * Edit the `env.sh` and source it
 
